@@ -6,6 +6,9 @@ import HandleEvent from './Components/HandleEvent';
 import DemoState from './Components/DemoState';
 import BaiTapChonXe from './Components/BaiTapChonXe';
 import RenderWithMap from './Components/RenderWithMap/RenderWithMap';
+import BaiTapRenderDanhSachPhim from './Components/RenderWithMap/BaiTapRenderDanhSachPhim';
+import DemoProps from './Props/DemoProps';
+import ProductListRCC from './Props/ProductListRCC';
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
       {/* <HandleEvent /> */}
       {/* <DemoState /> */}
       {/* <BaiTapChonXe /> */}
-      <RenderWithMap />
+      {/* <RenderWithMap /> */}
+      {/* <BaiTapRenderDanhSachPhim /> */}
+      {/* <DemoProps /> */}
+      <ProductListRCC />
     </div>
   );
 }
